@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+form{
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+label{
+  font-size: 25px;
+  font-weight: bold;
+}
+input{
+  outline: none;
+  margin: 15px;
+  height: 60px;
+  width: 300px;
+  font-size: 25px;
+}
+.card{
+ height: 180px;
+ width: 350px;
+ border: 2px solid black;
+ border-radius: 15px;
+ margin: auto auto;
+ margin-top: 10px;
+ padding-bottom: 15px;
+}
+.card p{
+  font-size: 23px;
+  font-weight: bold;
+}
+#updateInput{
+  width: 100px;
+  height: 20px;
+}
